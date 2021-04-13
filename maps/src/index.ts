@@ -7,4 +7,3 @@ const danny = new User()
 
 const manoir =  new Company()
 
-console.log(manoir)
