@@ -1,5 +1,5 @@
 class Vehicle{
-    drive():void{
+   public drive():void{
         console.log('chuga chuga')
     }
 }
@@ -14,4 +14,4 @@ class Car extends Vehicle {
 }
 
 const buick = new Car()
- buick.drive()
+ 
