@@ -1,9 +1,15 @@
-import { Company } from "./Company"
-import {User} from "./User"
+// import { Company } from "./Company"
+// import {User} from "./User"
 
 
 
-const danny = new User()
+new google.maps.Map(document.getElementById("map"),{
+    zoom:2,
+    center:{
+        lat:0,
+        lng:0 
+    }
+})
 
-const manoir =  new Company()
+
 
